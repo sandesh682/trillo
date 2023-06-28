@@ -295,6 +295,9 @@
 
   &__icon-location {
     margin-right: 0.5rem;
+    @media only screen and (max-width: $bp-small) {
+      margin-right: 0.1rem;
+    }
   }
 
   &__rating {
