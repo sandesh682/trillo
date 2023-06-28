@@ -23,7 +23,11 @@
 
 $bp-largest: 75em; //1200px
 $bp-large: 68.75em; //1100px
-$bp-medium: 56.25em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smaller: 34.37em; //550px
+$bp-smallest: 31.25em; //500px
+$bp-large-mobile: 28.12em; //450px
 
 * {
   margin: 0;
@@ -59,4 +63,9 @@ body {
   background-repeat: no-repeat;
 
   min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
 }
